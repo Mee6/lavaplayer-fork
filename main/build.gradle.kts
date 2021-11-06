@@ -9,7 +9,7 @@ version = "1.3.96-original"
 
 dependencies {
   api("com.sedmelluq:lava-common:1.1.2")
-  implementation("com.sedmelluq:lavaplayer-natives:1.3.14")
+  implementation("com.github.mee6:lavaplayer-natives:1.3.14")
   implementation("org.slf4j:slf4j-api:1.7.25")
 
   api("org.apache.httpcomponents:httpclient:4.5.10")
