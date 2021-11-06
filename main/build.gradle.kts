@@ -7,17 +7,9 @@ plugins {
 val moduleName = "lavaplayer"
 version = "1.3.96-original"
 
-repositories {
-  jcenter()
-  mavenLocal()
-  maven(url = "https://jitpack.io")
-  mavenCentral()
-  maven("https://repo.spring.io/milestone")
-}
-
 dependencies {
   api("com.sedmelluq:lava-common:1.1.2")
-  implementation("com.github.sedmelluq:lavaplayer-natives:b64f52")
+  implementation("com.sedmelluq:lavaplayer-natives:1.3.14")
   implementation("org.slf4j:slf4j-api:1.7.25")
 
   api("org.apache.httpcomponents:httpclient:4.5.10")
